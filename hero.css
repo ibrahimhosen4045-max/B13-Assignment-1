@@ -1,0 +1,111 @@
+/* Hero css */
+
+.hero-main{
+    background-image: url(./assets/hero.jpg);
+    width: 100%;
+    height: 75vh;
+    background-size: cover;     
+     
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    z-index: 50;
+}
+main{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    background: #001931CC;
+    
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.info-0{
+    display: flex;
+    justify-content: center;
+}
+.info-1{
+    padding: 8px 12px;
+    border: none;
+    background: white;
+    color: #469165;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+    
+    gap: 10px;
+}
+.circle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle1{
+    width: 17px;
+    height: 17px;
+    background: rgba(70, 145, 101, .4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle2{
+    width: 12px;
+    height: 12px;
+    background: rgba(70, 145, 101, .8);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle3{
+    width: 7px;
+    height: 7px;
+    background: rgb(57, 121, 84);
+    border-radius: 50%;
+}
+.hero-info h1{
+    color: #469165;
+    font-weight: 700;
+    font-size: 72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.hero-info h1 span{
+    color: white;
+}
+.hero-about{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+.hero-btn{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.btn-2{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: none;
+    border: 2px solid white;
+}
+.btn-2 img{
+    width: 16px;
+}
