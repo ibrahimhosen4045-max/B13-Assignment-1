@@ -50,3 +50,42 @@ nav{
     text-decoration: underline;
     color: #469165;
 }
+
+/* footer css */
+footer{
+    background: #001931;
+}
+.footer-up{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 105px 0;
+}
+.Social{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.Social i{
+    font-size: 20px;
+}
+.Social p{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.footer-down{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px 0;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #515764;
+}
